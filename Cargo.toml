@@ -9,7 +9,7 @@ repository = "http://100.92.54.45:3002/indexarr/librtbit-buffers"
 [dependencies]
 serde = "1"
 serde_derive = "1"
-clone_to_owned = { version = "0.1.0", registry = "forgejo", package = "librtbit-clone-to-owned" }
+clone_to_owned = { version = "0.1.1", registry = "forgejo", package = "librtbit-clone-to-owned" }
 bytes = "1"
 
 [lints.clippy]
