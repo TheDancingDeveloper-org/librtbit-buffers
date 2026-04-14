@@ -4,12 +4,12 @@ version = "0.1.1"
 edition = "2024"
 description = "Utils to work with byte buffers in librtbit source code"
 license = "MIT"
-repository = "http://100.92.54.45:3002/indexarr/librtbit-buffers"
+repository = "https://github.com/AusAgentSmith-org/librtbit-buffers"
 
 [dependencies]
 serde = "1"
 serde_derive = "1"
-clone_to_owned = { version = "0.1.1", registry = "forgejo", package = "librtbit-clone-to-owned" }
+clone_to_owned = { version = "0.1.1", package = "librtbit-clone-to-owned" }
 bytes = "1"
 
 [lints.clippy]
