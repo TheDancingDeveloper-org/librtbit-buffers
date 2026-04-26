@@ -20,9 +20,9 @@ dependencies = [
 
 [[package]]
 name = "librtbit-clone-to-owned"
-version = "0.1.0"
-source = "sparse+https://repo.indexarr.net/api/packages/indexarr/cargo/"
-checksum = "2d988ba16e404bfad37f12b042ca399a089715e1fab4c1e5e80267d3cdd82e38"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "25ef4d419efb961a6ebc8c5122f835ccfe8b918f16fa83b7001a051039889d9b"
 dependencies = [
  "bytes",
 ]
