@@ -10,7 +10,7 @@ checksum = "1e748733b7cbc798e1434b6ac524f0c1ff2ab456fe201501e6497c8417a4fc33"
 
 [[package]]
 name = "librtbit-buffers"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "bytes",
  "librtbit-clone-to-owned",
@@ -20,9 +20,8 @@ dependencies = [
 
 [[package]]
 name = "librtbit-clone-to-owned"
-version = "0.1.0"
-source = "sparse+https://repo.indexarr.net/api/packages/indexarr/cargo/"
-checksum = "2d988ba16e404bfad37f12b042ca399a089715e1fab4c1e5e80267d3cdd82e38"
+version = "0.1.1"
+source = "git+https://github.com/TheDancingDeveloper-org/librtbit-clone-to-owned.git#6944f73c91e9a4cc3be7694f864c5c06012066fc"
 dependencies = [
  "bytes",
 ]
